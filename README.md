@@ -19,12 +19,7 @@ To bridge this gap, we introduce a deep learning-based solution designed to make
 4. [Experimental Results and Performance Analysis](#experimental-results-and-performance-analysis)
    - [Experimental Setup and Hyper-Parameter Details](#experimental-setup-and-hyper-parameter-details)
    - [Results and Analysis](#results-and-analysis)
-   - [Additional Experiment](#additional-experiment)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Results](#results)
-8. [Future Work](#future-work)
-9. [License](#license)
+   
 
 ---
 
