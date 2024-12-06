@@ -29,8 +29,9 @@ To bridge this gap, we introduce a deep learning-based solution designed to make
 ---
 
 ## Introduction
+Breast cancer is the most prevalent cancer worldwide, significantly impacting women's health and remaining a leading cause of mortality. While traditional pathological image analysis is highly effective, it is often slow, resource-intensive, and reliant on specialized expertise, limiting its accessibility in underserved regions.
 
-Breast cancer is the most prevalent cancer worldwide and a leading cause of mortality among women. This project addresses challenges in histopathological image analysis by introducing a hybrid CNN model that improves accuracy and robustness for breast cancer detection.
+This project presents an innovative hybrid deep learning approach to enhance breast cancer detection. By integrating ResNet101 with a Residual Convolutional Block Attention Module (CBAM), the model focuses on key spatial and channel-specific features in histopathological images. Combined with advanced preprocessing techniques, this solution achieves high diagnostic accuracy, making breast cancer detection faster, more accessible, and reliable.
 
 ---
 
@@ -62,11 +63,11 @@ The ResNet101 architecture, pre-trained on ImageNet, serves as the backbone for 
 
 ### Convolutional Block Attention Module (CBAM)
 CBAM refines feature representations by applying **channel attention** and **spatial attention** sequentially, enabling the network to focus on relevant regions and features.
-### Pipeline of the method
+### Pipeline of the model
 ![pipeline](https://github.com/user-attachments/assets/f4cfeea7-9cb1-4c3c-8388-38ee109cea92)
 
 
-### Proposed Hybrid Model Structure
+### Hybrid Model Structure
 A combination of ResNet101 with CBAM forms a robust hybrid model. Key features include:
 - Fully connected layers with dropout and batch normalization for regularization.
 - A sigmoid output layer for binary classification.
@@ -99,15 +100,7 @@ A combination of ResNet101 with CBAM forms a robust hybrid model. Key features i
 
 #### MIAS Dataset
 - **Accuracy:** 99.03%
+- **Precision:** 98.41%
+- **Recall:** 99.56%
+- **F1-Score:** 99.01%
 
-### Additional Experiment
-The model demonstrated robust performance on diverse breast cancer imaging modalities, validating its generalization capability.
-
----
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/breast-cancer-detection.git
-   cd breast-cancer-detection
