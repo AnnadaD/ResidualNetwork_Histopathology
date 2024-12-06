@@ -3,9 +3,9 @@
 # Breast Cancer Detection Using Hybrid Deep Learning
 
 Breast cancer is one of the most common cancers affecting women worldwide and remains a leading cause of mortality. Early and accurate detection is critical for improving survival rates, but the current standard—pathological image analysis—can be slow, labor-intensive, and dependent on highly specialized expertise. This challenge is even more pronounced in regions with limited medical resources and access to advanced diagnostic tools.
+To bridge this gap, we introduce a deep learning-based solution designed to make breast cancer detection faster, more reliable, and accessible. At its heart is the **ResNet101** architecture, a powerful neural network known for extracting complex features from images. To take it a step further, we’ve incorporated a **Residual Convolutional Block Attention Module (CBAM)**. This attention mechanism helps the model focus on the most important parts of an image, both spatially and across its channels, significantly improving accuracy.
 
-To bridge this gap, we introduce a deep learning-based solution designed to make breast cancer detection faster, more reliable, and accessible. At its heart is the ResNet101 architecture, a powerful neural network known for extracting complex features from images. To take it a step further, we’ve incorporated a Residual Convolutional Block Attention Module (CBAM). This attention mechanism helps the model focus on the most important parts of an image, both spatially and across its channels, significantly improving accuracy.
----
+
 
 ## Table of Contents
 
@@ -62,12 +62,15 @@ The ResNet101 architecture, pre-trained on ImageNet, serves as the backbone for 
 
 ### Convolutional Block Attention Module (CBAM)
 CBAM refines feature representations by applying **channel attention** and **spatial attention** sequentially, enabling the network to focus on relevant regions and features.
+### Pipeline of the method
+![pipeline](https://github.com/user-attachments/assets/f4cfeea7-9cb1-4c3c-8388-38ee109cea92)
+
 
 ### Proposed Hybrid Model Structure
 A combination of ResNet101 with CBAM forms a robust hybrid model. Key features include:
 - Fully connected layers with dropout and batch normalization for regularization.
 - A sigmoid output layer for binary classification.
-
+![resnet+cbam](https://github.com/user-attachments/assets/7ca6dc89-882a-4152-b6de-6ad4f54e6b1f)
 ---
 
 ## Experimental Results and Performance Analysis
