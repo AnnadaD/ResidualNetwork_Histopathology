@@ -99,3 +99,4 @@ A combination of ResNet101 with CBAM forms a robust hybrid model. Key features i
 - **Recall:** 99.56%
 - **F1-Score:** 99.01%
 
+# DOI: https://doi.org/10.1109/ISACC65211.2025.10969381
