@@ -99,4 +99,11 @@ A combination of ResNet101 with CBAM forms a robust hybrid model. Key features i
 - **Recall:** 99.56%
 - **F1-Score:** 99.01%
 
-# DOI: https://doi.org/10.1109/ISACC65211.2025.10969381
+# DOI: 
+https://doi.org/10.1109/ISACC65211.2025.10969381
+
+If you use our code please cite our paper as 
+@INPROCEEDINGS{10969381,
+author={Dash, Annada and Pramanik, Payel and Sarkar, Ram}, booktitle={2025 3rd International Conference on Intelligent Systems, Advanced Computing and Communication (ISACC)}, 
+title={Attention-Enhanced Residual Network for Breast Cancer Detection in Histopathological Images}, year={2025}, volume={}, number={}, pages={697-703}, keywords={Deep learning;Image analysis;Attention mechanisms;Histopathology;Pipelines;Computer architecture;Feature extraction;Breast cancer;Data models;Residual neural networks;Breast cancer;Deep learning;Residual network;Attention module;Histopathology;CBAM;Medical image analysis},
+doi={10.1109/ISACC65211.2025.10969381}}
